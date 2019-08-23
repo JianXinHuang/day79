@@ -1,4 +1,4 @@
-# 小程序日历
+# 小程序日历选择
 
 源码见[https://github.com/treadpit/wx_calendar ](https://github.com/treadpit/wx_calendar)
 
