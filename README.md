@@ -35,7 +35,6 @@
 ```
 
 其中自定义事件功能对应如下，返回参数的具体格式可运行 `calendarComponent` 页面查看
-
 ```js
 Page({
   /**
@@ -170,7 +169,7 @@ Page({
 - (1) 调用当前页面实例上的方法（暴露的方法均已绑定至小程序页面实例的 `calendar` 对象上）
 
 ```js
-Page({
+Page({
   onShow() {
     this.calendar.jump(2018, 6, 6);
   }
@@ -181,8 +180,7 @@ Page({
 
 ```js
 import { jump } from '../../component/calendar/main.js';
-
-Page({
+Page({
   onShow() {
     jump(2018, 6, 6);
   }
